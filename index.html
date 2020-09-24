@@ -1,0 +1,261 @@
+ <!DOCTYPE html>
+<!--
+  ©©© "KJV Bible NCE" by "Danny & Cate" ©©©
+  ©©©©©© "https://dannyandcate.com" ©©©©©©©
+  ©©©©©©© "dannyandcate@gmail.com" ©©©©©©©©
+-->
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>KJV Bible NCE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+    <link href="documents/assets/css/all.css" rel="stylesheet">
+    <style type="text/css">
+    html {
+      background: url(documents/assets/img/bckg.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      overflow-y: scroll;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Delius', cursive;
+      line-height: 1.5em;
+    }
+    @import url(https://fonts.googleapis.com/css?family=Roboto:400,100);
+    @import url(http://weloveiconfonts.com/api/?family=entypo);
+    *, *:after, *:before {
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+    }
+    * {margin:0;padding:0;border: 0 none;position: relative;}
+    [class*="entypo-"]:before {font-family: 'entypo', sans-serif; display: inline-block; margin-right: .5rem;}
+
+    h2:after {content:"\2606";font-family: 'entypo', sans-serif; display: inline-block; margin-left: 1rem;;
+    }
+    body {
+      width: 100%;
+      min-height: 100%;
+      background: inherit;
+      overflow: hidden;
+    }
+    article {
+      background: inherit;
+      position: relative;
+      width: 60%;
+      margin: 10vh auto 15vh;
+      border-radius: 15px;
+      border: 10px solid rgba(255,255,255,.15);
+      box-shadow: 1px 1px 4px rgba(0,0,0,.3);
+      z-index: 5;
+      font-size: 1.4rem;
+      line-height: 1.8rem;
+      padding: 15px;
+    }
+    article:before {
+      content: '';
+      position: absolute;
+      top: 0; left:0; right:0; bottom:0;
+      background: inherit;
+      filter: blur(5px);
+      -webkit-filter: blur(6px);
+      -moz-filter: blur(6px);
+      -o-filter: blur(6px);
+      -ms-filter: blur(6px);
+      filter: url(#blur);filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='6');
+    }
+    h1 {
+      font-size: 5rem;
+      font-weight: 100;
+      text-align: center;
+      color: #183142;
+    }
+    h2 {
+      font-size: 2rem;
+      line-height: 2rem;
+      font-weight: 400;
+      text-align: center;
+      text-transform: uppercase;
+      color: #183142;
+      border-top: 1px solid rgba(255,255,255,.3);
+      margin: 2rem 0 0 0;
+      padding: 1rem 0;
+    }
+    form {
+      border-bottom: 1px solid rgba(255,255,255,.3);
+      color: #183142;
+      text-align: justify;
+      line-height: 1;
+      position: relative;
+      padding: 1rem 1rem 0;
+    }
+    form [class*="entypo-"]:last-child:before {margin-right: 0;}
+    form:after {
+      content: '';
+      display: inline-block;
+      width: 100%;
+      height: 0;
+      line-height:0;
+      visibility: hidden;
+      font-size: 0;
+    }
+    form span {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    input[type='text'] {
+      color: inherit;
+      background: none;
+      display: inline-block;
+      border: 1px solid;
+      border-radius: 5px;
+      line-height: 20px;
+      vertical-align: middle;
+      width: 45%;
+      margin: 0 .5rem 0;
+    }
+    ul {
+      list-style-type: none;
+      margin-top: 2rem;
+      padding: 0 1rem;
+    }
+    li {
+      margin-bottom: .5rem;
+      color: #000;
+    }
+    li:before {color: #597572;}
+    a {
+      background: rgba(0,0,0,.1);
+      color: yellow;
+      text-decoration: none;
+      text-transform: uppercase;
+      border-radius: 5px;
+      letter-spacing: 2px;
+      display: inline-block;
+      padding: 0 5px;
+    }
+    .notice {margin-bottom: 100px;}
+    .notice h2 {
+      border-top: 0 none;
+      border-bottom: 1px solid rgba(255,255,255,.3);
+      margin: 0 0 2rem;
+    }
+    .notice form {
+      border-bottom: 0 none;
+      border-top: 1px solid rgba(255,255,255,.3);
+      margin: 2rem 0 0 0;
+    }
+    svg {
+      height:0;
+      width: 0;
+      position: absolute;
+    }
+    .aviso {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      background: orange;
+      color: #fff;
+      font-weight: 400;
+      padding: .5rem;
+      border-radius: 5px 0 0;
+      box-shadow: 0 0 4px rgba(0,0,0,.4);
+      z-index: 100;
+    }
+    .aviso a {
+      text-decoration: none;
+      color: #000;
+    }
+    </style>
+
+  </head>
+
+  <body>
+    <article class='drag'>
+      <form>
+        <span class='entypo-mic'></span>
+        <span class='entypo-sound'></span>
+        <span class='entypo-adjust'></span>
+        <input type='text' name='q' id='search-box'>
+        <label class='entypo-search' for='search-box'></label>
+        <span class='entypo-tools'></span>
+        <span class='entypo-cog'></span>
+      </form>
+      <h2>Download Our Bible<br />While you can!</h2>
+      <p>
+        The files are here: <a href="https://github.com/dannyandcate/--FireFighters" target="_blank">https://github.com/dannyandcate/--FireFighters</a><br /><br />If you need a link to e-mail this download of our site, to someone. Then please copy the code below, and paste it into your e-mail.<br /><br />
+        <input style="width: 100%;height: 30px;" value='https://github.com/dannyandcate/--FireFighters' /><br /><br />
+        To use our sound / text bible you first need to download the sound-bible from here: <a href="http://server.firefighters.org/kjv.asp" target="_blank">http://server.firefighters.org/kjv.asp</a>. On the page download the file "The Entire KJV Bible", and extract it where you like.<br /><br />After that you need to download the text-bible, from our site, which combines the two bibles toether. Download our bible here, if you have not already downloaded it:<a href="https://github.com/dannyandcate/--FireFighters" target="_blank">https://github.com/dannyandcate/--FireFighters</a><br /><br />You need to rename the folder to "- FireFighters", and open the file "index.html", inside the folder "- FireFighters" to use the "KJV bible NCE".<br /><br />
+        <h2 class='entypo-star-empty'><a href="https://dannyandcate.github.io/site/" target="_blank">https://dannyandcate.github.io/site/</a></h2>
+    </article>
+
+    <article class='notice'>
+      <h2 class='entypo-attention'>Video installation Guide!</h2>
+      <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/qCN8QuNNZ8U" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+      <form>
+        <span class='entypo-attention'></span>
+        <span class='entypo-alert'></span>
+        <input type='text' name='q' id='search-box'>
+        <label class='entypo-search' for='search-box'></label>
+        <span class='entypo-paper-plane'></span>
+      </form>
+    </article>
+
+    <article class='notice'>
+      <h2 class='entypo-attention'>Contact Us!</h2>
+      <p>
+        <footer id="footer">
+          <p class="center">
+            <i class="fab fa-youtube" style="font-size: 48px;line-height: 60px;"></i> &nbsp; <a href="https://www.youtube.com/channel/UCpHdtC0Q4wMY2__CtF7f5Bw" target="_blank">YouTube</a><br />
+            <i class="fab fa-facebook" style="font-size: 48px;line-height: 60px;"></i> &nbsp; <a href="https://www.facebook.com/DannyAndCate" target="_blank">FaceBook</a><br />
+            <i class="fas fa-globe-europe" style="font-size: 48px;line-height: 60px;"></i> &nbsp; <a href="https://dannyandcate.github.io/site/" target="_blank">https://dannyandcate.github.io/site/</a><br />
+            <i class="fas fa-at" style="font-size: 48px;line-height: 60px;"></i> &nbsp; <a href="mailto:dannyandcate@gmail.com?subject=feedback" "email me">dannyandcate@gmail.com</a><br />
+          </p>
+        </footer>
+      </p>
+      <form>
+        <span class='entypo-attention'></span>
+        <span class='entypo-alert'></span>
+        <input type='text' name='q' id='search-box'>
+        <label class='entypo-search' for='search-box'></label>
+        <span class='entypo-paper-plane'></span>
+      </form>
+    </article>
+
+    <article class='notice'>
+      <h2 class='entypo-attention'>Go to the bible here!</h2>
+      <p>Click <a href="documents/The-Gospel-According-to-John.html">Here</a> to load the bible, and remember to bookmark the page you get to.</p>
+      <form>
+        <span class='entypo-attention'></span>
+        <span class='entypo-alert'></span>
+        <input type='text' name='q' id='search-box'>
+        <label class='entypo-search' for='search-box'></label>
+        <span class='entypo-paper-plane'></span>
+      </form>
+    </article>
+
+    <article class='notice'>
+      <h2 class='entypo-attention'>Change theme for the bible!</h2>
+      <p>If you want to change the theme for the bible, you need to extract one of the files: "theme-1.zip", "theme-2.zip", "theme-3.zip", "theme-4.zip", "theme-5.zip", "theme-6.zip", "theme-7.zip".<br />When you extract it where it is (same folder), it vill ask you to overwrite a file. Just accept it, for the theme to change.</p>
+      <form>
+        <span class='entypo-attention'></span>
+        <span class='entypo-alert'></span>
+        <input type='text' name='q' id='search-box'>
+        <label class='entypo-search' for='search-box'></label>
+        <span class='entypo-paper-plane'></span>
+      </form>
+    </article>
+
+    <svg version="1.1" xmlns='http://www.w3.org/2000/svg'>
+     <filter id='blur'>
+       <feGaussianBlur stdDeviation='6' />
+       </filter>
+    </svg>
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+  </body>
+</html>
