@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Delius&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+  max-height: 100%;
+  display: flex;
+  font-family: Delius, 'Open Sans', sans-serif;
+  line-height: 1.5em;
+}
+main {
+  position: fixed;
+  top: 100px; /* Set this to the height of the header */
+  bottom: 50px; /* Set this to the height of the footer */
+  left: 326px;
+  right: 286px;
+  overflow: auto;
+  background: #c7eef5;
+  scroll-behavior: smooth;
+}
+main a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+}
+#header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  overflow: hidden; /* Disables scrollbars on the header frame. To enable scrollbars, change "hidden" to "scroll" */
+  background: #55bdca;
+}
+#footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  overflow: hidden; /* Disables scrollbars on the footer frame. To enable scrollbars, change "hidden" to "scroll" */
+  background: #55bdca;
+  padding-bottom: 10px;
+}
+#left {
+  position: absolute;
+  top: 100px; /* Set this to the height of the header */
+  bottom: 50px; /* Set this to the height of the footer */
+  left: 0;
+  width: 326px;
+  overflow: auto; /* Scrollbars will appear on this frame only when there's enough content to require scrolling. To disable scrollbars, change to "hidden", or use "scroll" to enable permanent scrollbars */
+  background: #95ffff;
+}
+#right {
+  position: absolute;
+  top: 100px; /* Set this to the height of the header */
+  bottom: 50px; /* Set this to the height of the footer */
+  right: 0;
+  width: 286px;
+  overflow: auto; /* Scrollbars will appear on this frame only when there's enough content to require scrolling. To disable scrollbars, change to "hidden", or use "scroll" to enable permanent scrollbars */
+  background: #95ffff;
+}
+.innertube {
+  margin: 15px; /* Provides padding for the content */
+}
+h1,
+h2,
+h3 {
+  color: #022249;
+  text-align: center;
+  font-family: 'Merienda One', cursive;
+  line-height: 1.3em;
+  text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5, -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5, -6px 7px #808d93, -7px 6px #cdd2d5;
+}
+h1 {
+  font-size: 42px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+p {
+  color: darkgreen;
+  font-size: 24px;
+}
+main p:hover {
+  border-radius: 5px;
+  border: 2px solid #ff8a00;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.6);
+  background: rgba(255, 138, 0, 0.3);
+  padding: 5px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul a {
+  border-bottom: 2px solid #ff9800;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/*IE6 fix*/
+* html body{
+  padding: 100px 286px 50px 326px; /* Set the first value to the height of the header, the second value to the width of the right column, third value to the height of the footer, and last value to the width of the left column */
+}
+* html main{
+  height: 100%;
+  width: 100%;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+.size1 {
+  font-size: 24px;
+}
+#footer a,
+nav ul a,
+main a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #022249;
+  font-size: 13px;
+}
+#footer a:hover,
+nav ul a:hover,
+main a:hover {
+  border-radius: 5px;
+  font-weight: bold;
+  border: 2px solid #26102e;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+  padding: 10px;
+  text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5, -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93;
+}
