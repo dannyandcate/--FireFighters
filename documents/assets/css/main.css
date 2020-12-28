@@ -17,7 +17,7 @@ main {
   left: 326px;
   right: 286px;
   overflow: auto;
-  background: #17242a;
+  background: #389583;
   scroll-behavior: smooth;
 }
 main a {
@@ -32,7 +32,7 @@ main a {
   width: 100%;
   height: 100px;
   overflow: hidden; /* Disables scrollbars on the header frame. To enable scrollbars, change "hidden" to "scroll" */
-  background: #2b7a77;
+  background: #2c3532;
 }
 #footer {
   position: absolute;
@@ -41,7 +41,7 @@ main a {
   width: 100%;
   height: 50px;
   overflow: hidden; /* Disables scrollbars on the footer frame. To enable scrollbars, change "hidden" to "scroll" */
-  background: #2b7a77;
+  background: #2c3532;
   padding-bottom: 10px;
 }
 #left {
@@ -51,7 +51,7 @@ main a {
   left: 0;
   width: 326px;
   overflow: auto; /* Scrollbars will appear on this frame only when there's enough content to require scrolling. To disable scrollbars, change to "hidden", or use "scroll" to enable permanent scrollbars */
-  background: #3aafa9;
+  background: #106466;
 }
 #right {
   position: absolute;
@@ -60,7 +60,7 @@ main a {
   right: 0;
   width: 286px;
   overflow: auto; /* Scrollbars will appear on this frame only when there's enough content to require scrolling. To disable scrollbars, change to "hidden", or use "scroll" to enable permanent scrollbars */
-  background: #3aafa9;
+  background: #106466;
 }
 .innertube {
   margin: 15px; /* Provides padding for the content */
@@ -68,7 +68,7 @@ main a {
 h1,
 h2,
 h3 {
-  color: #def2f1;
+  color: #ff8a00;
   text-align: center;
   font-family: 'Merienda One', cursive;
   line-height: 1.3em;
@@ -84,7 +84,7 @@ h3 {
   font-size: 24px;
 }
 p {
-  color: #ffffff;
+  color: #ffcb9b;
   font-size: 24px;
 }
 main p:hover {
@@ -130,7 +130,7 @@ nav ul a,
 main a {
   text-decoration: none;
   font-weight: bold;
-  color: #ffffff;
+  color: #ffcb9b;
   font-size: 13px;
 }
 #footer a:hover,
@@ -140,6 +140,4 @@ main a:hover {
   font-weight: bold;
   border: 2px solid #26102e;
   box-shadow: 0 0 50px rgba(0, 0, 0, 1);
-  padding: 10px;
-  text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5, -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93;
 }
